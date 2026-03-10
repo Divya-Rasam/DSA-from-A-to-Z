@@ -1,0 +1,7 @@
+| Pattern Type        | Spaces             | Stars       |
+| ------------------- | ------------------ | ----------- |
+| Increasing triangle | 0                  | `i+1`       |
+| Decreasing triangle | 0                  | `n-i`       |
+| Pyramid             | `n-i-1`            | `2*i+1`     |
+| Inverted pyramid    | `i`                | `2*(n-i)-1` |
+| Diamond             | Pyramid + Inverted |             |
